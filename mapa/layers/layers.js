@@ -20,8 +20,8 @@ var lyr_ImagemdesatliteSentinel2ESA2021_1 = new ol.layer.Tile({
                                 "TILED": "true",
                                 "VERSION": "1.3.0"},
                             })),
-                            title: 'Imagem de satélite - Sentinel-2 (ESA, 2021)',
-                            popuplayertitle: 'Imagem de satélite - Sentinel-2 (ESA, 2021)',
+                            title: 'Satellite imagery - Sentinel-2 (ESA, 2021)',
+                            popuplayertitle: 'Satellite imagery - Sentinel-2 (ESA, 2021)',
                             type: '',
                             opacity: 0.550000,
                             
@@ -39,9 +39,9 @@ var lyr_Lagoas_2 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_Lagoas_2, 
                 style: style_Lagoas_2,
-                popuplayertitle: 'Lagoas',
+                popuplayertitle: 'Lakes',
                 interactive: true,
-                title: '<img src="styles/legend/Lagoas_2.png" /> Lagoas'
+                title: '<img src="styles/legend/Lagoas_2.png" /> Lakes'
             });
 
 var vectorTileUrl_Baciashidrogrficas_3 = 'layers/Baciashidrogrficas_3-pbf/{z}/{x}/{y}.pbf';
@@ -61,11 +61,11 @@ var lyr_Baciashidrogrficas_3 = new ol.layer.VectorTile({
     declutter: false,
     source: vectorTileSource_Baciashidrogrficas_3,
     sourceType: 'pbf',
-    popuplayertitle: 'Bacias hidrográficas',
+    popuplayertitle: 'Drainage basins',
     extent: ol.proj.transformExtent([-3480828.533452812, 4429024.2238246, -2784454.3805704615, 4826231.643426077], 'EPSG:3857', 'EPSG:3857'),
     interactive: true,
     style: style_Baciashidrogrficas_3,
-    title: '<img src="styles/legend/Baciashidrogrficas_3.png" /> Bacias hidrográficas'
+    title: '<img src="styles/legend/Baciashidrogrficas_3.png" /> Drainage basins'
 });
 
 
@@ -86,11 +86,11 @@ var lyr_Hidrografia_4 = new ol.layer.VectorTile({
     declutter: false,
     source: vectorTileSource_Hidrografia_4,
     sourceType: 'pbf',
-    popuplayertitle: 'Hidrografia',
+    popuplayertitle: 'Watercourses',
     extent: ol.proj.transformExtent([-3480356.508755586, 4429308.670621186, -2784631.3006371786, 4825608.2798649045], 'EPSG:3857', 'EPSG:3857'),
     interactive: true,
     style: style_Hidrografia_4,
-    title: '<img src="styles/legend/Hidrografia_4.png" /> Hidrografia'
+    title: '<img src="styles/legend/Hidrografia_4.png" /> Watercourses'
 });
 
 var format_Nascentesdeabastecimentopblico_5 = new ol.format.GeoJSON();
@@ -104,9 +104,9 @@ var lyr_Nascentesdeabastecimentopblico_5 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_Nascentesdeabastecimentopblico_5, 
                 style: style_Nascentesdeabastecimentopblico_5,
-                popuplayertitle: 'Nascentes de abastecimento público',
+                popuplayertitle: 'Public water supply springs',
                 interactive: true,
-                title: '<img src="styles/legend/Nascentesdeabastecimentopblico_5.png" /> Nascentes de abastecimento público'
+                title: '<img src="styles/legend/Nascentesdeabastecimentopblico_5.png" /> Public water supply springs'
             });
 var format_Monitorizaoguassubterrneas_6 = new ol.format.GeoJSON();
 var features_Monitorizaoguassubterrneas_6 = format_Monitorizaoguassubterrneas_6.readFeatures(json_Monitorizaoguassubterrneas_6, 
@@ -119,9 +119,9 @@ var lyr_Monitorizaoguassubterrneas_6 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_Monitorizaoguassubterrneas_6, 
                 style: style_Monitorizaoguassubterrneas_6,
-                popuplayertitle: 'Monitorização - águas subterrâneas',
+                popuplayertitle: 'Groundwater monitoring',
                 interactive: true,
-                title: '<img src="styles/legend/Monitorizaoguassubterrneas_6.png" /> Monitorização - águas subterrâneas'
+                title: '<img src="styles/legend/Monitorizaoguassubterrneas_6.png" /> Groundwater monitoring'
             });
 var format_Monitorizaoguassuperficiais_7 = new ol.format.GeoJSON();
 var features_Monitorizaoguassuperficiais_7 = format_Monitorizaoguassuperficiais_7.readFeatures(json_Monitorizaoguassuperficiais_7, 
@@ -134,9 +134,9 @@ var lyr_Monitorizaoguassuperficiais_7 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_Monitorizaoguassuperficiais_7, 
                 style: style_Monitorizaoguassuperficiais_7,
-                popuplayertitle: 'Monitorização - águas superficiais',
+                popuplayertitle: 'Surface water monitoring',
                 interactive: true,
-                title: '<img src="styles/legend/Monitorizaoguassuperficiais_7.png" /> Monitorização - águas superficiais'
+                title: '<img src="styles/legend/Monitorizaoguassuperficiais_7.png" /> Surface water monitoring'
             });
 var format_Redehidrometeorolgica_8 = new ol.format.GeoJSON();
 var features_Redehidrometeorolgica_8 = format_Redehidrometeorolgica_8.readFeatures(json_Redehidrometeorolgica_8, 
@@ -149,9 +149,9 @@ var lyr_Redehidrometeorolgica_8 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_Redehidrometeorolgica_8, 
                 style: style_Redehidrometeorolgica_8,
-                popuplayertitle: 'Rede hidrometeorológica',
+                popuplayertitle: 'Hydrometeorological network',
                 interactive: true,
-                title: '<img src="styles/legend/Redehidrometeorolgica_8.png" /> Rede hidrometeorológica'
+                title: '<img src="styles/legend/Redehidrometeorolgica_8.png" /> Hydrometeorological network'
             });
 var format_Sistemasaquferos_9 = new ol.format.GeoJSON();
 var features_Sistemasaquferos_9 = format_Sistemasaquferos_9.readFeatures(json_Sistemasaquferos_9, 
@@ -164,9 +164,9 @@ var lyr_Sistemasaquferos_9 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_Sistemasaquferos_9, 
                 style: style_Sistemasaquferos_9,
-                popuplayertitle: 'Sistemas aquíferos',
+                popuplayertitle: 'Aquifer systems',
                 interactive: true,
-                title: '<img src="styles/legend/Sistemasaquferos_9.png" /> Sistemas aquíferos'
+                title: '<img src="styles/legend/Sistemasaquferos_9.png" /> Aquifer systems'
             });
 var format_BitoposCorine_10 = new ol.format.GeoJSON();
 var features_BitoposCorine_10 = format_BitoposCorine_10.readFeatures(json_BitoposCorine_10, 
@@ -179,9 +179,9 @@ var lyr_BitoposCorine_10 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_BitoposCorine_10, 
                 style: style_BitoposCorine_10,
-                popuplayertitle: 'Biótopos Corine',
+                popuplayertitle: 'CORINE biotopes',
                 interactive: true,
-                title: '<img src="styles/legend/BitoposCorine_10.png" /> Biótopos Corine'
+                title: '<img src="styles/legend/BitoposCorine_10.png" /> CORINE biotopes'
             });
 
 var vectorTileUrl_Habitatsprotegidos20012006_11 = 'layers/Habitatsprotegidos20012006_11-pbf/{z}/{x}/{y}.pbf';
@@ -201,11 +201,11 @@ var lyr_Habitatsprotegidos20012006_11 = new ol.layer.VectorTile({
     declutter: false,
     source: vectorTileSource_Habitatsprotegidos20012006_11,
     sourceType: 'pbf',
-    popuplayertitle: 'Habitats protegidos - 2001 - 2006',
+    popuplayertitle: 'Protected habitats - 2001–2006',
     extent: ol.proj.transformExtent([-3958904.1140335603, 3986295.2283204147, -2325145.853493121, 5296040.638944624], 'EPSG:3857', 'EPSG:3857'),
     interactive: true,
     style: style_Habitatsprotegidos20012006_11,
-    title: '<img src="styles/legend/Habitatsprotegidos20012006_11.png" /> Habitats protegidos - 2001 - 2006'
+    title: '<img src="styles/legend/Habitatsprotegidos20012006_11.png" /> Protected habitats - 2001–2006'
 });
 
 var format_Habitatsprotegidos20072012_12 = new ol.format.GeoJSON();
@@ -219,9 +219,9 @@ var lyr_Habitatsprotegidos20072012_12 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_Habitatsprotegidos20072012_12, 
                 style: style_Habitatsprotegidos20072012_12,
-                popuplayertitle: 'Habitats protegidos - 2007 - 2012',
+                popuplayertitle: 'Protected habitats - 2007–2012',
                 interactive: true,
-                title: '<img src="styles/legend/Habitatsprotegidos20072012_12.png" /> Habitats protegidos - 2007 - 2012'
+                title: '<img src="styles/legend/Habitatsprotegidos20072012_12.png" /> Protected habitats - 2007–2012'
             });
 var format_Habitatsprotegidos20132018_13 = new ol.format.GeoJSON();
 var features_Habitatsprotegidos20132018_13 = format_Habitatsprotegidos20132018_13.readFeatures(json_Habitatsprotegidos20132018_13, 
@@ -234,9 +234,9 @@ var lyr_Habitatsprotegidos20132018_13 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_Habitatsprotegidos20132018_13, 
                 style: style_Habitatsprotegidos20132018_13,
-                popuplayertitle: 'Habitats protegidos - 2013 - 2018',
+                popuplayertitle: 'Protected habitats - 2013–2018',
                 interactive: true,
-                title: '<img src="styles/legend/Habitatsprotegidos20132018_13.png" /> Habitats protegidos - 2013 - 2018'
+                title: '<img src="styles/legend/Habitatsprotegidos20132018_13.png" /> Protected habitats - 2013–2018'
             });
 var format_StiosRamsarWFS_14 = new ol.format.GeoJSON();
 var features_StiosRamsarWFS_14 = format_StiosRamsarWFS_14.readFeatures(json_StiosRamsarWFS_14, 
@@ -249,9 +249,9 @@ var lyr_StiosRamsarWFS_14 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_StiosRamsarWFS_14, 
                 style: style_StiosRamsarWFS_14,
-                popuplayertitle: 'Sítios Ramsar (WFS)',
+                popuplayertitle: 'Ramsar Sites (WFS)',
                 interactive: true,
-                title: '<img src="styles/legend/StiosRamsarWFS_14.png" /> Sítios Ramsar (WFS)'
+                title: '<img src="styles/legend/StiosRamsarWFS_14.png" /> Ramsar Sites (WFS)'
             });
 var format_reasprotegidasdosParquesNaturaisdeIlhaWFS_15 = new ol.format.GeoJSON();
 var features_reasprotegidasdosParquesNaturaisdeIlhaWFS_15 = format_reasprotegidasdosParquesNaturaisdeIlhaWFS_15.readFeatures(json_reasprotegidasdosParquesNaturaisdeIlhaWFS_15, 
@@ -264,9 +264,9 @@ var lyr_reasprotegidasdosParquesNaturaisdeIlhaWFS_15 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_reasprotegidasdosParquesNaturaisdeIlhaWFS_15, 
                 style: style_reasprotegidasdosParquesNaturaisdeIlhaWFS_15,
-                popuplayertitle: 'Áreas protegidas dos Parques Naturais de Ilha (WFS)',
+                popuplayertitle: 'Protected areas of Island Natural Parks (WFS)',
                 interactive: true,
-                title: '<img src="styles/legend/reasprotegidasdosParquesNaturaisdeIlhaWFS_15.png" /> Áreas protegidas dos Parques Naturais de Ilha (WFS)'
+                title: '<img src="styles/legend/reasprotegidasdosParquesNaturaisdeIlhaWFS_15.png" /> Protected areas of Island Natural Parks (WFS)'
             });
 var format_ZECWFS_16 = new ol.format.GeoJSON();
 var features_ZECWFS_16 = format_ZECWFS_16.readFeatures(json_ZECWFS_16, 
@@ -279,9 +279,9 @@ var lyr_ZECWFS_16 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_ZECWFS_16, 
                 style: style_ZECWFS_16,
-                popuplayertitle: 'ZEC (WFS)',
+                popuplayertitle: 'Special Areas of Conservation - SAC (WFS)',
                 interactive: true,
-                title: '<img src="styles/legend/ZECWFS_16.png" /> ZEC (WFS)'
+                title: '<img src="styles/legend/ZECWFS_16.png" /> Special Areas of Conservation - SAC (WFS)'
             });
 var format_ZPEWFS_17 = new ol.format.GeoJSON();
 var features_ZPEWFS_17 = format_ZPEWFS_17.readFeatures(json_ZPEWFS_17, 
@@ -294,9 +294,9 @@ var lyr_ZPEWFS_17 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_ZPEWFS_17, 
                 style: style_ZPEWFS_17,
-                popuplayertitle: 'ZPE (WFS)',
+                popuplayertitle: 'Special Protection Areas - SPA (WFS)',
                 interactive: true,
-                title: '<img src="styles/legend/ZPEWFS_17.png" /> ZPE (WFS)'
+                title: '<img src="styles/legend/ZPEWFS_17.png" /> Special Protection Areas - SPA (WFS)'
             });
 var format_ReservasdaBiosferaagregadoWFS_18 = new ol.format.GeoJSON();
 var features_ReservasdaBiosferaagregadoWFS_18 = format_ReservasdaBiosferaagregadoWFS_18.readFeatures(json_ReservasdaBiosferaagregadoWFS_18, 
@@ -309,9 +309,9 @@ var lyr_ReservasdaBiosferaagregadoWFS_18 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_ReservasdaBiosferaagregadoWFS_18, 
                 style: style_ReservasdaBiosferaagregadoWFS_18,
-                popuplayertitle: 'Reservas da Biosfera - agregado (WFS)',
+                popuplayertitle: 'Biosphere reserves - combined (WFS)',
                 interactive: true,
-                title: '<img src="styles/legend/ReservasdaBiosferaagregadoWFS_18.png" /> Reservas da Biosfera - agregado (WFS)'
+                title: '<img src="styles/legend/ReservasdaBiosferaagregadoWFS_18.png" /> Biosphere reserves - combined (WFS)'
             });
 var format_SICWFS_19 = new ol.format.GeoJSON();
 var features_SICWFS_19 = format_SICWFS_19.readFeatures(json_SICWFS_19, 
@@ -324,9 +324,9 @@ var lyr_SICWFS_19 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_SICWFS_19, 
                 style: style_SICWFS_19,
-                popuplayertitle: 'SIC (WFS)',
+                popuplayertitle: 'Sites of Community Importance - SCI (WFS)',
                 interactive: true,
-                title: '<img src="styles/legend/SICWFS_19.png" /> SIC (WFS)'
+                title: '<img src="styles/legend/SICWFS_19.png" /> Sites of Community Importance - SCI (WFS)'
             });
 
 var vectorTileUrl_CapacidadedeUsodoSolo_20 = 'layers/CapacidadedeUsodoSolo_20-pbf/{z}/{x}/{y}.pbf';
@@ -346,18 +346,18 @@ var lyr_CapacidadedeUsodoSolo_20 = new ol.layer.VectorTile({
     declutter: false,
     source: vectorTileSource_CapacidadedeUsodoSolo_20,
     sourceType: 'pbf',
-    popuplayertitle: 'Capacidade de Uso do Solo',
+    popuplayertitle: 'Land use capability',
     extent: ol.proj.transformExtent([-3481618.1682419996, 4429045.632859477, -2784468.529277741, 4826339.439470804], 'EPSG:3857', 'EPSG:3857'),
     interactive: true,
     style: style_CapacidadedeUsodoSolo_20,
-    title: 'Capacidade de Uso do Solo<br />\
-    <img src="styles/legend/CapacidadedeUsodoSolo_20_0.png" /> Áreas sociais<br />\
-    <img src="styles/legend/CapacidadedeUsodoSolo_20_1.png" /> Lagoas<br />\
-    <img src="styles/legend/CapacidadedeUsodoSolo_20_2.png" /> Pastagem melhorada<br />\
-    <img src="styles/legend/CapacidadedeUsodoSolo_20_3.png" /> Pastagem melhorada + uso arável<br />\
-    <img src="styles/legend/CapacidadedeUsodoSolo_20_4.png" /> Pastagem natural/floresta + reserva<br />\
-    <img src="styles/legend/CapacidadedeUsodoSolo_20_5.png" /> Reserva + pastagem natural/floresta<br />\
-    <img src="styles/legend/CapacidadedeUsodoSolo_20_6.png" /> Outras classes - por confirmar<br />' });
+    title: 'Land use capability<br />\
+    <img src="styles/legend/CapacidadedeUsodoSolo_20_0.png" /> Built-up areas<br />\
+    <img src="styles/legend/CapacidadedeUsodoSolo_20_1.png" /> Lakes<br />\
+    <img src="styles/legend/CapacidadedeUsodoSolo_20_2.png" /> Improved pasture<br />\
+    <img src="styles/legend/CapacidadedeUsodoSolo_20_3.png" /> Improved pasture + arable use<br />\
+    <img src="styles/legend/CapacidadedeUsodoSolo_20_4.png" /> Natural pasture/forest + reserve<br />\
+    <img src="styles/legend/CapacidadedeUsodoSolo_20_5.png" /> Reserve + natural pasture/forest<br />\
+    <img src="styles/legend/CapacidadedeUsodoSolo_20_6.png" /> Other Classs - pending verification<br />' });
 
 
 var vectorTileUrl_COSA2018Nvel3_21 = 'layers/COSA2018Nvel3_21-pbf/{z}/{x}/{y}.pbf';
@@ -377,41 +377,41 @@ var lyr_COSA2018Nvel3_21 = new ol.layer.VectorTile({
     declutter: false,
     source: vectorTileSource_COSA2018Nvel3_21,
     sourceType: 'pbf',
-    popuplayertitle: 'COS.A 2018 - Nível 3',
+    popuplayertitle: 'COS.A 2018 - Level 3',
     extent: ol.proj.transformExtent([-3481588.626275533, 4429021.214531562, -2784332.1962973666, 4826342.839416019], 'EPSG:3857', 'EPSG:3857'),
     interactive: true,
     style: style_COSA2018Nvel3_21,
-    title: 'COS.A 2018 - Nível 3<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_0.png" /> 111 - Tecido urbano contínuo<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_1.png" /> 112 - Tecido urbano descontínuo<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_2.png" /> 121 - Indústria, comércio e equipamentos<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_3.png" /> 122 - Redes viárias e espaços associados<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_4.png" /> 123 - Áreas portuárias<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_5.png" /> 124 - Aeroportos e aeródromos<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_6.png" /> 131 - Extração de massas minerais<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_7.png" /> 132 - Gestão de resíduos<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_8.png" /> 133 - Áreas em construção<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_9.png" /> 141 - Espaços verdes urbanos<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_10.png" /> 142 - Equipamentos de desporto, cultura e lazer<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_11.png" /> 211 - Terras aráveis<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_12.png" /> 212 - Culturas permanentes<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_13.png" /> 213 - Prados e pastagens<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_14.png" /> 214 - Áreas agrícolas heterogéneas<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_15.png" /> 311 - Florestas de folhosas<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_16.png" /> 312 - Florestas de resinosas<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_17.png" /> 313 - Florestas naturais<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_18.png" /> 314 - Galerias ripícolas<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_19.png" /> 315 - Vegetação herbácea natural<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_20.png" /> 316 - Matos<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_21.png" /> 321 - Vegetação esparsa<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_22.png" /> 322 - Praias<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_23.png" /> 323 - Áreas semidesérticas<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_24.png" /> 324 - Rocha nua<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_25.png" /> 411 - Zonas apauladas<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_26.png" /> 511 - Cursos de água<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_27.png" /> 512 - Lagoas<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_28.png" /> 521 - Lagoas costeiras<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_29.png" /> Outras classes - verificar<br />' });
+    title: 'COS.A 2018 - Level 3<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_0.png" /> 111 - Continuous urban fabric<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_1.png" /> 112 - Discontinuous urban fabric<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_2.png" /> 121 - Industrial, commercial and service areas<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_3.png" /> 122 - Road networks and associated areas<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_4.png" /> 123 - Port areas<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_5.png" /> 124 - Airports and airfields<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_6.png" /> 131 - Mineral extraction Sites<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_7.png" /> 132 - Waste management Sites<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_8.png" /> 133 - Construction Sites<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_9.png" /> 141 - Urban green spaces<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_10.png" /> 142 - Sports, cultural and leisure facilities<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_11.png" /> 211 - Arable land<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_12.png" /> 212 - Permanent crops<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_13.png" /> 213 - Meadows and pastures<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_14.png" /> 214 - Mixed agricultural areas<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_15.png" /> 311 - Broadleaved forests<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_16.png" /> 312 - Coniferous forests<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_17.png" /> 313 - Natural forests<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_18.png" /> 314 - Riparian forests<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_19.png" /> 315 - Natural herbaceous vegetation<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_20.png" /> 316 - Shrubland<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_21.png" /> 321 - Sparse vegetation<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_22.png" /> 322 - Beaches<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_23.png" /> 323 - Semi-desert areas<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_24.png" /> 324 - Bare rock<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_25.png" /> 411 - Wetlands<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_26.png" /> 511 - Watercourses<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_27.png" /> 512 - Lakes<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_28.png" /> 521 - Coastal lagoons<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_29.png" /> Other Classs - under review<br />' });
 
 
 var vectorTileUrl_InventrioFlorestal25N_22 = 'layers/InventrioFlorestal25N_22-pbf/{z}/{x}/{y}.pbf';
@@ -431,20 +431,20 @@ var lyr_InventrioFlorestal25N_22 = new ol.layer.VectorTile({
     declutter: false,
     source: vectorTileSource_InventrioFlorestal25N_22,
     sourceType: 'pbf',
-    popuplayertitle: 'Inventário Florestal - 25N',
+    popuplayertitle: 'Forest Inventory - 25N',
     extent: ol.proj.transformExtent([-3481045.87802438, 4774649.134333743, -3459983.9785919646, 4826580.433536017], 'EPSG:3857', 'EPSG:3857'),
     interactive: true,
     style: style_InventrioFlorestal25N_22,
-    title: 'Inventário Florestal - 25N<br />\
-    <img src="styles/legend/InventrioFlorestal25N_22_0.png" /> Áreas florestais<br />\
-    <img src="styles/legend/InventrioFlorestal25N_22_1.png" /> Vegetação natural<br />\
-    <img src="styles/legend/InventrioFlorestal25N_22_2.png" /> Culturas agrícolas ou pastagens<br />\
-    <img src="styles/legend/InventrioFlorestal25N_22_3.png" /> Inculto<br />\
-    <img src="styles/legend/InventrioFlorestal25N_22_4.png" /> Improdutivo<br />\
-    <img src="styles/legend/InventrioFlorestal25N_22_5.png" /> Planos de água<br />\
-    <img src="styles/legend/InventrioFlorestal25N_22_6.png" /> Rede viária<br />\
-    <img src="styles/legend/InventrioFlorestal25N_22_7.png" /> Agregados urbanos<br />\
-    <img src="styles/legend/InventrioFlorestal25N_22_8.png" /> Áreas sociais<br />' });
+    title: 'Forest Inventory - 25N<br />\
+    <img src="styles/legend/InventrioFlorestal25N_22_0.png" /> Forest areas<br />\
+    <img src="styles/legend/InventrioFlorestal25N_22_1.png" /> Natural vegetation<br />\
+    <img src="styles/legend/InventrioFlorestal25N_22_2.png" /> Crops or pastures<br />\
+    <img src="styles/legend/InventrioFlorestal25N_22_3.png" /> Uncultivated land<br />\
+    <img src="styles/legend/InventrioFlorestal25N_22_4.png" /> Unproductive land<br />\
+    <img src="styles/legend/InventrioFlorestal25N_22_5.png" /> Water bodies<br />\
+    <img src="styles/legend/InventrioFlorestal25N_22_6.png" /> Road network<br />\
+    <img src="styles/legend/InventrioFlorestal25N_22_7.png" /> Built-up areas<br />\
+    <img src="styles/legend/InventrioFlorestal25N_22_8.png" /> Built-up areas<br />' });
 
 
 var vectorTileUrl_InventrioFlorestal26N_23 = 'layers/InventrioFlorestal26N_23-pbf/{z}/{x}/{y}.pbf';
@@ -464,21 +464,21 @@ var lyr_InventrioFlorestal26N_23 = new ol.layer.VectorTile({
     declutter: false,
     source: vectorTileSource_InventrioFlorestal26N_23,
     sourceType: 'pbf',
-    popuplayertitle: 'Inventário Florestal - 26N',
+    popuplayertitle: 'Forest Inventory - 26N',
     extent: ol.proj.transformExtent([-3211256.435463098, 4429021.66196868, -2777892.0838845116, 4736256.054229063], 'EPSG:3857', 'EPSG:3857'),
     interactive: true,
     style: style_InventrioFlorestal26N_23,
-    title: 'Inventário Florestal - 26N<br />\
-    <img src="styles/legend/InventrioFlorestal26N_23_0.png" /> Áreas florestais<br />\
-    <img src="styles/legend/InventrioFlorestal26N_23_1.png" /> Vegetação natural<br />\
-    <img src="styles/legend/InventrioFlorestal26N_23_2.png" /> Culturas agrícolas ou pastagens<br />\
-    <img src="styles/legend/InventrioFlorestal26N_23_3.png" /> Inculto<br />\
-    <img src="styles/legend/InventrioFlorestal26N_23_4.png" /> Improdutivo<br />\
-    <img src="styles/legend/InventrioFlorestal26N_23_5.png" /> Planos de água<br />\
-    <img src="styles/legend/InventrioFlorestal26N_23_6.png" /> Rede viária<br />\
-    <img src="styles/legend/InventrioFlorestal26N_23_7.png" /> Agregados urbanos<br />\
-    <img src="styles/legend/InventrioFlorestal26N_23_8.png" /> Áreas sociais<br />\
-    <img src="styles/legend/InventrioFlorestal26N_23_9.png" /> Áreas a apurar<br />' });
+    title: 'Forest Inventory - 26N<br />\
+    <img src="styles/legend/InventrioFlorestal26N_23_0.png" /> Forest areas<br />\
+    <img src="styles/legend/InventrioFlorestal26N_23_1.png" /> Natural vegetation<br />\
+    <img src="styles/legend/InventrioFlorestal26N_23_2.png" /> Crops or pastures<br />\
+    <img src="styles/legend/InventrioFlorestal26N_23_3.png" /> Uncultivated land<br />\
+    <img src="styles/legend/InventrioFlorestal26N_23_4.png" /> Unproductive land<br />\
+    <img src="styles/legend/InventrioFlorestal26N_23_5.png" /> Water bodies<br />\
+    <img src="styles/legend/InventrioFlorestal26N_23_6.png" /> Road network<br />\
+    <img src="styles/legend/InventrioFlorestal26N_23_7.png" /> Built-up areas<br />\
+    <img src="styles/legend/InventrioFlorestal26N_23_8.png" /> Built-up areas<br />\
+    <img src="styles/legend/InventrioFlorestal26N_23_9.png" /> Areas to be assessed<br />' });
 
 var format_Falhasgeolgicas_24 = new ol.format.GeoJSON();
 var features_Falhasgeolgicas_24 = format_Falhasgeolgicas_24.readFeatures(json_Falhasgeolgicas_24, 
@@ -491,9 +491,9 @@ var lyr_Falhasgeolgicas_24 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_Falhasgeolgicas_24, 
                 style: style_Falhasgeolgicas_24,
-                popuplayertitle: 'Falhas geológicas',
+                popuplayertitle: 'Geological faults',
                 interactive: true,
-                title: '<img src="styles/legend/Falhasgeolgicas_24.png" /> Falhas geológicas'
+                title: '<img src="styles/legend/Falhasgeolgicas_24.png" /> Geological faults'
             });
 var format_Substratocosteiro_25 = new ol.format.GeoJSON();
 var features_Substratocosteiro_25 = format_Substratocosteiro_25.readFeatures(json_Substratocosteiro_25, 
@@ -506,9 +506,9 @@ var lyr_Substratocosteiro_25 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_Substratocosteiro_25, 
                 style: style_Substratocosteiro_25,
-                popuplayertitle: 'Substrato costeiro',
+                popuplayertitle: 'Coastal substrate',
                 interactive: true,
-                title: '<img src="styles/legend/Substratocosteiro_25.png" /> Substrato costeiro'
+                title: '<img src="styles/legend/Substratocosteiro_25.png" /> Coastal substrate'
             });
 
 var vectorTileUrl_Movimentosdevertentesuscetibilidade_26 = 'layers/Movimentosdevertentesuscetibilidade_26-pbf/{z}/{x}/{y}.pbf';
@@ -528,11 +528,11 @@ var lyr_Movimentosdevertentesuscetibilidade_26 = new ol.layer.VectorTile({
     declutter: false,
     source: vectorTileSource_Movimentosdevertentesuscetibilidade_26,
     sourceType: 'pbf',
-    popuplayertitle: 'Movimentos de vertente - suscetibilidade',
+    popuplayertitle: 'Slope movement susceptibility',
     extent: ol.proj.transformExtent([-3480832.4986530743, 4429024.260030816, -2784450.88513845, 4826227.231796865], 'EPSG:3857', 'EPSG:3857'),
     interactive: true,
     style: style_Movimentosdevertentesuscetibilidade_26,
-    title: '<img src="styles/legend/Movimentosdevertentesuscetibilidade_26.png" /> Movimentos de vertente - suscetibilidade'
+    title: '<img src="styles/legend/Movimentosdevertentesuscetibilidade_26.png" /> Slope movement susceptibility'
 });
 
 var format_reasdedesgaseificaodifusadeCO_27 = new ol.format.GeoJSON();
@@ -546,9 +546,9 @@ var lyr_reasdedesgaseificaodifusadeCO_27 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_reasdedesgaseificaodifusadeCO_27, 
                 style: style_reasdedesgaseificaodifusadeCO_27,
-                popuplayertitle: 'Áreas de desgaseificação difusa de CO₂',
+                popuplayertitle: 'Diffuse CO₂ degassing areas',
                 interactive: true,
-                title: '<img src="styles/legend/reasdedesgaseificaodifusadeCO_27.png" /> Áreas de desgaseificação difusa de CO₂'
+                title: '<img src="styles/legend/reasdedesgaseificaodifusadeCO_27.png" /> Diffuse CO₂ degassing areas'
             });
 var format_Fumarolaseemissesdevapor_28 = new ol.format.GeoJSON();
 var features_Fumarolaseemissesdevapor_28 = format_Fumarolaseemissesdevapor_28.readFeatures(json_Fumarolaseemissesdevapor_28, 
@@ -561,9 +561,9 @@ var lyr_Fumarolaseemissesdevapor_28 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_Fumarolaseemissesdevapor_28, 
                 style: style_Fumarolaseemissesdevapor_28,
-                popuplayertitle: 'Fumarolas e emissões de vapor',
+                popuplayertitle: 'Fumaroles and steam emissions',
                 interactive: true,
-                title: '<img src="styles/legend/Fumarolaseemissesdevapor_28.png" /> Fumarolas e emissões de vapor'
+                title: '<img src="styles/legend/Fumarolaseemissesdevapor_28.png" /> Fumaroles and steam emissions'
             });
 var format_Zonasameaadaspelomar_29 = new ol.format.GeoJSON();
 var features_Zonasameaadaspelomar_29 = format_Zonasameaadaspelomar_29.readFeatures(json_Zonasameaadaspelomar_29, 
@@ -576,9 +576,9 @@ var lyr_Zonasameaadaspelomar_29 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_Zonasameaadaspelomar_29, 
                 style: style_Zonasameaadaspelomar_29,
-                popuplayertitle: 'Zonas ameaçadas pelo mar',
+                popuplayertitle: 'Areas threatened by the sea',
                 interactive: true,
-                title: '<img src="styles/legend/Zonasameaadaspelomar_29.png" /> Zonas ameaçadas pelo mar'
+                title: '<img src="styles/legend/Zonasameaadaspelomar_29.png" /> Areas threatened by the sea'
             });
 
 var vectorTileUrl_Galgamentoseinundaescosteirasrisco_30 = 'layers/Galgamentoseinundaescosteirasrisco_30-pbf/{z}/{x}/{y}.pbf';
@@ -598,29 +598,29 @@ var lyr_Galgamentoseinundaescosteirasrisco_30 = new ol.layer.VectorTile({
     declutter: false,
     source: vectorTileSource_Galgamentoseinundaescosteirasrisco_30,
     sourceType: 'pbf',
-    popuplayertitle: 'Galgamentos e inundações costeiras - risco',
+    popuplayertitle: 'Coastal overtopping and flooding risk',
     extent: ol.proj.transformExtent([-3465246.1279795263, 4429147.67520177, -2784665.9588474426, 4826231.507371866], 'EPSG:3857', 'EPSG:3857'),
     interactive: true,
     style: style_Galgamentoseinundaescosteirasrisco_30,
-    title: '<img src="styles/legend/Galgamentoseinundaescosteirasrisco_30.png" /> Galgamentos e inundações costeiras - risco'
+    title: '<img src="styles/legend/Galgamentoseinundaescosteirasrisco_30.png" /> Coastal overtopping and flooding risk'
 });
 
 var group_guas = new ol.layer.Group({
                                 layers: [lyr_Lagoas_2,lyr_Baciashidrogrficas_3,lyr_Hidrografia_4,lyr_Nascentesdeabastecimentopblico_5,lyr_Monitorizaoguassubterrneas_6,lyr_Monitorizaoguassuperficiais_7,lyr_Redehidrometeorolgica_8,lyr_Sistemasaquferos_9,],
                                 fold: 'close',
-                                title: 'Águas'});
+                                title: 'Water'});
 var group_Ecologiaeconservao = new ol.layer.Group({
                                 layers: [lyr_BitoposCorine_10,lyr_Habitatsprotegidos20012006_11,lyr_Habitatsprotegidos20072012_12,lyr_Habitatsprotegidos20132018_13,lyr_StiosRamsarWFS_14,lyr_reasprotegidasdosParquesNaturaisdeIlhaWFS_15,lyr_ZECWFS_16,lyr_ZPEWFS_17,lyr_ReservasdaBiosferaagregadoWFS_18,lyr_SICWFS_19,],
                                 fold: 'close',
-                                title: 'Ecologia e conservação'});
+                                title: 'Ecology and Conservation'});
 var group_Usoeocupaodosolo = new ol.layer.Group({
                                 layers: [lyr_CapacidadedeUsodoSolo_20,lyr_COSA2018Nvel3_21,lyr_InventrioFlorestal25N_22,lyr_InventrioFlorestal26N_23,],
                                 fold: 'close',
-                                title: 'Uso e ocupação do solo'});
+                                title: 'Land Use and Land Cover'});
 var group_Geologiaeriscosnaturais = new ol.layer.Group({
                                 layers: [lyr_Falhasgeolgicas_24,lyr_Substratocosteiro_25,lyr_Movimentosdevertentesuscetibilidade_26,lyr_reasdedesgaseificaodifusadeCO_27,lyr_Fumarolaseemissesdevapor_28,lyr_Zonasameaadaspelomar_29,lyr_Galgamentoseinundaescosteirasrisco_30,],
                                 fold: 'close',
-                                title: 'Geologia e riscos naturais'});
+                                title: 'Geology and Natural Hazards'});
 
 lyr_OpenStreetMap_0.setVisible(false);lyr_ImagemdesatliteSentinel2ESA2021_1.setVisible(true);lyr_Lagoas_2.setVisible(false);lyr_Baciashidrogrficas_3.setVisible(false);lyr_Hidrografia_4.setVisible(false);lyr_Nascentesdeabastecimentopblico_5.setVisible(false);lyr_Monitorizaoguassubterrneas_6.setVisible(false);lyr_Monitorizaoguassuperficiais_7.setVisible(false);lyr_Redehidrometeorolgica_8.setVisible(false);lyr_Sistemasaquferos_9.setVisible(false);lyr_BitoposCorine_10.setVisible(false);lyr_Habitatsprotegidos20012006_11.setVisible(false);lyr_Habitatsprotegidos20072012_12.setVisible(false);lyr_Habitatsprotegidos20132018_13.setVisible(false);lyr_StiosRamsarWFS_14.setVisible(false);lyr_reasprotegidasdosParquesNaturaisdeIlhaWFS_15.setVisible(false);lyr_ZECWFS_16.setVisible(true);lyr_ZPEWFS_17.setVisible(false);lyr_ReservasdaBiosferaagregadoWFS_18.setVisible(false);lyr_SICWFS_19.setVisible(false);lyr_CapacidadedeUsodoSolo_20.setVisible(false);lyr_COSA2018Nvel3_21.setVisible(false);lyr_InventrioFlorestal25N_22.setVisible(false);lyr_InventrioFlorestal26N_23.setVisible(false);lyr_Falhasgeolgicas_24.setVisible(false);lyr_Substratocosteiro_25.setVisible(false);lyr_Movimentosdevertentesuscetibilidade_26.setVisible(false);lyr_reasdedesgaseificaodifusadeCO_27.setVisible(false);lyr_Fumarolaseemissesdevapor_28.setVisible(false);lyr_Zonasameaadaspelomar_29.setVisible(false);lyr_Galgamentoseinundaescosteirasrisco_30.setVisible(false);
 var layersList = [lyr_OpenStreetMap_0,lyr_ImagemdesatliteSentinel2ESA2021_1,group_guas,group_Ecologiaeconservao,group_Usoeocupaodosolo,group_Geologiaeriscosnaturais];
