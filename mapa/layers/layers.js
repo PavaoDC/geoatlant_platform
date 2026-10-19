@@ -249,9 +249,9 @@ var lyr_StiosRamsarWFS_14 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_StiosRamsarWFS_14, 
                 style: style_StiosRamsarWFS_14,
-                popuplayertitle: 'Ramsar Sites (WFS)',
+                popuplayertitle: 'Ramsar sites (WFS)',
                 interactive: true,
-                title: '<img src="styles/legend/StiosRamsarWFS_14.png" /> Ramsar Sites (WFS)'
+                title: '<img src="styles/legend/StiosRamsarWFS_14.png" /> Ramsar sites (WFS)'
             });
 var format_reasprotegidasdosParquesNaturaisdeIlhaWFS_15 = new ol.format.GeoJSON();
 var features_reasprotegidasdosParquesNaturaisdeIlhaWFS_15 = format_reasprotegidasdosParquesNaturaisdeIlhaWFS_15.readFeatures(json_reasprotegidasdosParquesNaturaisdeIlhaWFS_15, 
@@ -357,7 +357,7 @@ var lyr_CapacidadedeUsodoSolo_20 = new ol.layer.VectorTile({
     <img src="styles/legend/CapacidadedeUsodoSolo_20_3.png" /> Improved pasture + arable use<br />\
     <img src="styles/legend/CapacidadedeUsodoSolo_20_4.png" /> Natural pasture/forest + reserve<br />\
     <img src="styles/legend/CapacidadedeUsodoSolo_20_5.png" /> Reserve + natural pasture/forest<br />\
-    <img src="styles/legend/CapacidadedeUsodoSolo_20_6.png" /> Other Classs - pending verification<br />' });
+    <img src="styles/legend/CapacidadedeUsodoSolo_20_6.png" /> Other classes - pending verification<br />' });
 
 
 var vectorTileUrl_COSA2018Nvel3_21 = 'layers/COSA2018Nvel3_21-pbf/{z}/{x}/{y}.pbf';
@@ -388,9 +388,9 @@ var lyr_COSA2018Nvel3_21 = new ol.layer.VectorTile({
     <img src="styles/legend/COSA2018Nvel3_21_3.png" /> 122 - Road networks and associated areas<br />\
     <img src="styles/legend/COSA2018Nvel3_21_4.png" /> 123 - Port areas<br />\
     <img src="styles/legend/COSA2018Nvel3_21_5.png" /> 124 - Airports and airfields<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_6.png" /> 131 - Mineral extraction Sites<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_7.png" /> 132 - Waste management Sites<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_8.png" /> 133 - Construction Sites<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_6.png" /> 131 - Mineral extraction sites<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_7.png" /> 132 - Waste management sites<br />\
+    <img src="styles/legend/COSA2018Nvel3_21_8.png" /> 133 - Construction sites<br />\
     <img src="styles/legend/COSA2018Nvel3_21_9.png" /> 141 - Urban green spaces<br />\
     <img src="styles/legend/COSA2018Nvel3_21_10.png" /> 142 - Sports, cultural and leisure facilities<br />\
     <img src="styles/legend/COSA2018Nvel3_21_11.png" /> 211 - Arable land<br />\
@@ -411,7 +411,7 @@ var lyr_COSA2018Nvel3_21 = new ol.layer.VectorTile({
     <img src="styles/legend/COSA2018Nvel3_21_26.png" /> 511 - Watercourses<br />\
     <img src="styles/legend/COSA2018Nvel3_21_27.png" /> 512 - Lakes<br />\
     <img src="styles/legend/COSA2018Nvel3_21_28.png" /> 521 - Coastal lagoons<br />\
-    <img src="styles/legend/COSA2018Nvel3_21_29.png" /> Other Classs - under review<br />' });
+    <img src="styles/legend/COSA2018Nvel3_21_29.png" /> Other classes - under review<br />' });
 
 
 var vectorTileUrl_InventrioFlorestal25N_22 = 'layers/InventrioFlorestal25N_22-pbf/{z}/{x}/{y}.pbf';
